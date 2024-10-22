@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-//import PetHeroImage from './PetHeroImage';
 
 // TODO: in storybook, create a story for this component
 // update the value for src in the story
