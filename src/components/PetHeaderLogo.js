@@ -8,7 +8,7 @@ export default function PetHeaderLogo(props) {
   const {logoSrc, brandName} = props;
   // The above line is the syntactic sugar for the following:
   // const logoSrc = props.logoSrc;
-  // const brandName = props.brandName;
+ //  const brandName = props.brandName;
 
   return (
     <div className="flex items-center bg-rose-500 w-full">
