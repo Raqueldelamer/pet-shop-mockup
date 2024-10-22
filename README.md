@@ -1,5 +1,7 @@
 ## Find a Friend App Mockup
 
+Story Book => http://localhost:6006/?path=/story/components-petheaderlogo--default 
+
 Our team is working on a new app called Find a Friend. We have a mockup of the app that we need to implement. We have already created some components and stories for them. We need you to finish the implementation of the app by creating the remaining components and stories for them.
 
 Each component has a corresponding image that shows how it should look. You can find the images in the `public/mockups` folder.
