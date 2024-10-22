@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 
 export default function PetCallToAction(props) {
+  let { button }= props
+
   return (
     <div className="mt-20 ml-20">
       <button class="flex items-center px-10 py-2 bg-blue-100 text-black font-semibold rounded-md hover:bg-blue-500">

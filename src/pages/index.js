@@ -23,19 +23,20 @@ export default function Home() {
           </section>
 
         </main>
-        <h1 className="text-4xl mt-8 font-serif font-extrabold">
+        <div>
+        <h1 className="text-4xl text-white mt-8 font-serif font-extrabold ">
           Bring Happiness to Your Home
         </h1><br /><br />
-        <p className='font-serif text-2xl font-bold'>
-         Find the ideal pet for your life style
+        <p className='font-serif text-2xl text-white font-bold'>
+          Find the ideal pet for your life style
         </p>
         <p>
           When complete, work on the bottom (white) part of the image. Create a new page for it at `about.js`. Add the components you need to create the page. Test them. Make sure they are working as expected. Then, add them to the new page. (Be sure to use PropTypes so storybook can help you test your components.)
         </p>
-        <div>
-          <img src="/mockups/home.png" alt="Home Page Mockup" />
+        <div className="flex ">
+          <img src="/img/pet-app-bottom-layer.jpg" alt="Pet App Layers" />
         </div>
-
+      </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ export default function PetHeaderLogo(props) {
   return (
     <div className="flex items-center bg-rose-500 w-full">
       <img src={logoSrc} alt="Pet Logo" className="w-8 h-8" />
-      <h1 className="text-xl text-rose-50 ml-2">{brandName}</h1>
+      <h1 className="text-xl font-bold text-rose-50 ml-2">{brandName}</h1>
     </div>
   );
 }

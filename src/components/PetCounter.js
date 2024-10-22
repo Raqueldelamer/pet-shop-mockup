@@ -5,7 +5,7 @@ export default function PetCounter(props) {
   const { images, numberOfPets } = props;
   return (
     <div className="bg-rose-500">
-      <div className="todo-update-this-class flex">
+      <div className="flex">
         {images.map((image, index) => (
           <img 
               key={index}
@@ -14,7 +14,7 @@ export default function PetCounter(props) {
               className="-ml-3" />
         ))}
       </div>
-      <span className="italic font-bold">SO MANY PETS! {numberOfPets} Pets in your City! </span>
+      <span className="italic text-white font-bold">SO MANY PETS! {numberOfPets} Pets in your City! </span>
     </div>
   );
 };
