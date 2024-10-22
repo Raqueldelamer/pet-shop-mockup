@@ -23,13 +23,27 @@ export const FindAFriendNormal = {
 export const FindAFriendDark = {
   args: {
     logoSrc: "img/paw-face-sm-dark.png",
-    brandName: "FindAFriend"
+    brandName: "FindAFurFriend"
   }
 };
 
 export const HotDog = {
   args: {
     logoSrc: "img/paw-face-sm.png",
-    brandName: "HotDiggityDog"
+    brandName: "HotDiggityMeow"
+  }
+};
+
+export const FurFriend = {
+  args: {
+    logoSrc: "img/paw-face-sm-dark.png",
+    brandName: "FindAFurFriend"
+  }
+};
+
+export const FurSoulMate = {
+  args: {
+    logoSrc: "img/paw-face-sm.png",
+    brandName: "FindAFurSoulMate"
   }
 };

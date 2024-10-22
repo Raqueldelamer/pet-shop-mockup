@@ -10,12 +10,12 @@ export default function Home() {
     <div className="bg-rose-500">
       <div class="container mx-auto px-4">
         <div className="flex justify-around py-3">
-          <PetHeaderLogo logoSrc="/img/paw-face-sm.png" brandName="FindAFriend" />
-          <PetHeaderMenu menuItems={["Home", "Sobre o app", "Animais disponíveis", "Sobre a FindAFriend", "Contact"]} />
+          <PetHeaderLogo logoSrc="/img/paw-face-sm.png" brandName="FindAFurFriend" />
+          <PetHeaderMenu menuItems={["Home", "About the App", "Available Animals", "About FindAFriend", "Contact"]} />
         </div>
         <main className="mt-10 flex">
           <section className="w-1/2">
-            <PetCounter images={["/img/dog-mini-1.png", "/img/cat-mini-1.png", "/img/dog-mini-2.png", "/img/cat-mini-2.png"]} count={324} />
+            <PetCounter images={["/img/dog-mini-1.png", "/img/cat-mini-1.png", "/img/dog-mini-2.png", "/img/cat-mini-2.png"]} numberOfPets={505} />
           </section>
           <section className="w-1/2 flex flex-col">
             <PetHeroImage src="/img/hero-dog.png" />
@@ -23,8 +23,8 @@ export default function Home() {
           </section>
 
         </main>
-        <h1 className="text-2xl mt-8">
-          TODO...
+        <h1 className="text-4xl mt-8 font-serif font-extrabold">
+          Bring Happiness to Your Home
         </h1>
         <p>
           Add all your finished components to create a website that looks like the top (pink) part of this image. Work on the components. Create stories for them in storybook. Test them. Make sure they are working as expected. Then, add them to this page.
