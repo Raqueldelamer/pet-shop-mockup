@@ -11,10 +11,10 @@ export default function PetCounter(props) {
               key={index}
               src={image}
               alt={`Pet ${index + 1}`}
-              className="-ml-3" />
+              className="-ml-2" />
         ))}
       </div>
-      <span className="italic text-white font-bold">SO MANY PETS! {numberOfPets} Pets in your City! </span>
+      <span className="italic text-2xl text-white font-bold">SO MANY PETS! {numberOfPets} Pets in your City! </span>
     </div>
   );
 };

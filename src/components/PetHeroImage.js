@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default function PetHeroImage (props) {
   let image = props.src;
   return (
-    <div className= "size-80 bg-gradient-to-b from-rose-300 flex-col items-center justify-center" >
+    <div className= "size-80 bg-gradient-to-b from-rose-400 hover:from-rose-400 hover:to-orange-500" >
         <img src={image} alt="hero-dog-img" />
       </div>
   );

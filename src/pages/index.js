@@ -15,28 +15,25 @@ export default function Home() {
           <PetHeaderMenu menuItems={["Home", "About the App", "Available Animals", "About FindAFriend", "Contact"]} />
         </div>
         
-        <main className="mt-10 flex">
+        <main className="mt-2 flex">
           <section className="w-1/2">
             <PetCounter images={["/img/dog-mini-1.png", "/img/cat-mini-1.png", "/img/dog-mini-2.png", "/img/cat-mini-2.png"]} numberOfPets={505} />
+            <h1 className="p-2 text-5xl text-white mt-16 font-serif font-extrabold ">
+            <PetHeroText title="Bring happiness to your home!" />
+            </h1>
+            <PetHeroText description="Find the ideal pet for your lifestyle" />
           </section>
-          
-          <section className="p-2 ">
+        
+          <section className="p-3 mt-4 flex-auto">
             <PetHeroImage src="/img/hero-dog.png" />
             <PetCallToAction ctaText="Access Now"/>
           </section>
-        </main>
+          </main> 
           
-        <div className= "w-1/2 flex-col">
-          <h1 className="text-5xl text-white mr-2 font-serif font-extrabold ">
-          <PetHeroText title="Bring happiness to your home" />
-          </h1>
-          <PetHeroText description="Find the ideal pet for your lifestyle" />
-          
-        <div className="flex-col justify-center size-90">
+          <div className="flex-col justify-center size-100">
             <img src="/img/pet-app-bottom-layer.jpg" alt="Pet App Layers" />
           </div>
         </div>  
-      </div>
       </div>
       
     
