@@ -11,6 +11,7 @@ export default function PetHeaderMenu(props) {
         <div>{menuItems[1]}</div>
         <div>{menuItems[2]}</div>
         <div>{menuItems[3]}</div>
+        <div>{menuItems[4]}</div>
     </div>
   );
 }

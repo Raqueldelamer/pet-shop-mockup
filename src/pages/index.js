@@ -12,7 +12,7 @@ export default function Home() {
       <div className="container mx-auto px-4">
         <div className="flex justify-around py-3">
           <PetHeaderLogo logoSrc="/img/paw-face-sm.png" brandName="FindAFurFriend" />
-          <PetHeaderMenu menuItems={["Home", "About the App", "Available Animals", "About FindAFriend", "Contact"]} />
+          <PetHeaderMenu menuItems={["Home", "About FindAFurFriend", "Available Pets", "Pricing", "Contact"]} />
         </div>
         
         <main className="mt-2 flex">
@@ -30,8 +30,8 @@ export default function Home() {
           </section>
           </main> 
           
-          <div className="flex-col justify-center size-100">
-            <img src="/img/pet-app-bottom-layer.jpg" alt="Pet App Layers" />
+          <div className="flex-col justify-center">
+            <img src="/img/pet-app-layers-bottom.jpg" alt="Pet App Layers" />
           </div>
         </div>  
       </div>
