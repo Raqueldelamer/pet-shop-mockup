@@ -8,7 +8,7 @@ export default meta;
 
 export const Default = {
   args: {
-    menuItems: ["About", "Contacts", "Download", "Pricing", "Account"]
+    menuItems: ["Home", "About FindAFurFriend", "Available Pets", "Pricing", "Contact"]
   }
 };
 
@@ -21,5 +21,11 @@ export const French = {
 export const Portuguese = {
   args: {
     menuItems: ["Sobre", "Contatos", "Baixar", "Preços", "Conta"]
+  }
+};
+
+export const FindAFurFriend = {
+  args: {
+    menuItems: ["Home", "About FindAFurFriend", "Available Pets", "Pricing", "Contact"]
   }
 };

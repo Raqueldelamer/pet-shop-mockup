@@ -4,6 +4,7 @@ import PetCounter from '../components/PetCounter';
 import PetHeroImage from '../components/PetHeroImage';
 import PetCallToAction from '../components/PetCallToAction';
 import PetHeroText from '../components/PetHeroText'; 
+import PetBottomLayer from '@/components/PetBottomLayer';
 
 export default function Home() {
 
@@ -30,8 +31,8 @@ export default function Home() {
           </section>
           </main> 
           
-          <div className="flex-col justify-center">
-            <img src="/img/pet-app-layers-bottom.jpg" alt="Pet App Layers" />
+          <div className="flex-col justify-center w-full">
+            <PetBottomLayer src="/img/pet-app-layers-bottom.jpg" />
           </div>
         </div>  
       </div>

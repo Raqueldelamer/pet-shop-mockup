@@ -1,12 +1,30 @@
-// TODO: create a new page component based on the bottom hae of the design in public/mockups/home.png
+import PetBottomLayer from "@/components/PetBottomLayer";
+import PetHeaderLogo from '../components/PetHeaderLogo';
+import PetHeaderMenu from '../components/PetHeaderMenu';
 
-// You fill first need to create three components: SecondaryImage, PetAboutText, and PetCard in the src/components folder. 
+// TODO: create a new page component based on the bottom half of the design in public/mockups/home.png
+export default function AboutPage() {
+    return (
 
-// You should also create stories for each of these components in the src/components folder using storybook.
+    <div className="container mx-auto px-4 bg-rose-500">
+        <div class="flex justify-around py-3">
+            <PetHeaderLogo logoSrc="/img/paw-face-sm.png" brandName="FindAFurFriend" />
+            <PetHeaderMenu menuItems={["Home", "About FindAFurFriend", "Available Pets", "Pricing", "Contact"]} />
+        </div>
 
-// Use these three components to create the About page
-// Look in the public/mockups folder for the design
-// 1. Create a component called SecondaryImage based on the design in public/mockups/secondary-image.png
-// 2. Create a component called PetAboutText based on the design in public/mockups/description-title.png
-// 3. Create a component called PetCard based on the design in public/mockups/amigo-card.png
+        <div className="bg-rose-500 text-2xl font-bold text-white ">
+            About FindAFurFriend:
+            <br />
+            <PetBottomLayer src="/img/pet-app-layers-bottom.jpg" />
+        </div>
+    </div>
+        
+        
+    );
+}
+// I created one component: PetBottomLayer that has an About.js FindAFurFriend site detail jpg that I designed
+// in photoshop that is in the img folder. The stories.jsx & js are in the component folder. 
+
+// I created a PetBottomLayer.stories for the component in the src/components folder using storybook.
+
 // Optional: include the "Header from the Home page" at the top of the About page

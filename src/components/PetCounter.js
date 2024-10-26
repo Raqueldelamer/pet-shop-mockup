@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-// TODO: update this component to match the design in public/mockups/amigo-counter.png
+// Updated this component to match the design in public/mockups/amigo-counter.png
 export default function PetCounter(props) {
   const { images, numberOfPets } = props;
   return (
