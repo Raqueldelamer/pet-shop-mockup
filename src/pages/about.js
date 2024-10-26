@@ -6,17 +6,20 @@ import PetHeaderMenu from '../components/PetHeaderMenu';
 export default function AboutPage() {
     return (
 
-    <div className="container mx-auto px-4 bg-rose-500">
-        <div class="flex justify-around py-3">
+    <div className="bg-rose-500">
+    <div className="container mx-auto px-4">
+        <div className="flex justify-around py-3">
+        
             <PetHeaderLogo logoSrc="/img/paw-face-sm.png" brandName="FindAFurFriend" />
             <PetHeaderMenu menuItems={["Home", "About FindAFurFriend", "Available Pets", "Pricing", "Contact"]} />
         </div>
 
-        <div className="bg-rose-500 text-2xl font-bold text-white ">
+        <div className="bg-rose-500 p-4 text-2xl font-bold text-white ">
             About FindAFurFriend:
             <br />
             <PetBottomLayer src="/img/pet-app-layers-bottom.jpg" />
         </div>
+    </div>
     </div>
         
         

@@ -11,7 +11,7 @@ export default function PetHeaderLogo(props) {
  //  const brandName = props.brandName;
 
   return (
-    <div className="flex items-center bg-rose-500 w-full">
+    <div className="flex items-center p-4 bg-rose-500 w-full">
       <img src={logoSrc} alt="Pet Logo" className="w-8 h-8" />
       <h1 className="text-xl font-bold text-rose-50 ml-2">{brandName}</h1>
     </div>
