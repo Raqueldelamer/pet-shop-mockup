@@ -46,7 +46,7 @@ Open [http://localhost:6006](http://localhost:6006) with your browser to see the
 - [x] Add additional stories for existing components.
 - [x] Create stories for components that don't have stories yet. (PetCallToAction and PetHeroImage)
 - [x] Create an about page.
-- [x] Create three more components and stories for them for your about page. (SecondaryImage, PetAboutInfo, and PetCard (I created a PetBottomImage))
+- [x] Create three more components and stories for them for your about page. 1.PetHeader 2. PetMenu with href link 3.PetBottomImage with About Info 
 - [x] Add PropTypes for the props of all components so storybook can find them.
 
 ## Mockup Figma
